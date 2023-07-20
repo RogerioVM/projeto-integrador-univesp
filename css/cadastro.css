@@ -1,0 +1,145 @@
+.form-area {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+
+.form-area h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.form-area h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.input-area-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-area-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input {
+    width: 310px;
+    padding: 0.3em;
+    margin-left: 20px;
+    background: #3B3B3B;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.buttons-area {
+    position: absolute;
+    top: 480px;
+    left: 80px;
+    width: 400px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.buttons-area p {
+    padding: 15px;
+    background-color: #8FFF00;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttons-area .papel{
+    background: #414489;
+    border-radius: 8px;
+}
+.buttons-area .plastico{
+    background: #923434;
+    border-radius: 8px;
+}
+.buttons-area .vidro{
+    background: #4C8531;
+    border-radius: 8px;
+}
+.buttons-area .metal{
+    background: #ABA24D;
+    border-radius: 8px;
+}
+.buttons-area .organico{
+    background: #77472D;
+    border-radius: 8px;
+}
+.buttons-area .madeira{
+    background: #1B1B1B;
+    border-radius: 8px;
+}
+.buttons-area .perigosos{
+    background: #FAB34A;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 18px;
+    
+}
+.buttons-area .saude{
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #3B3B3B;
+}
+.buttons-area .radioativos{
+    background: #8517DC;
+    border-radius: 8px;
+    
+}
+.buttons-area span {
+    position: absolute;
+    top: 263px;
+    left: 300px;
+}
+
+.cadastrar-ponto-coleta {
+    position: absolute;
+    padding: 0.3em;
+    width: 280px;
+    height: 30px;
+    left: 80px;
+    top: 840px;
+    background: #FAB34A;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
